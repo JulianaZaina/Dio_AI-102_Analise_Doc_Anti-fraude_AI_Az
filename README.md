@@ -10,9 +10,11 @@ Criar um recurso da IA do Azure para Informação de Documentos e obter os dados
 - Na caixa de texto Nome, digite um nome exclusivo para o recurso.
 - Selecione um Tipo de preço e selecione Examinar + criar. 
 - Se os testes de validação forem aprovados, selecione Criar. O Azure implanta o novo recurso de IA do Azure para Informação de Documentos.
+![image](https://github.com/user-attachments/assets/2e029fae-7679-4e37-8705-f08598806e3d)
 
 EXECUÇÃO:
- 
+ ![image](https://github.com/user-attachments/assets/a88bca54-3d0b-4687-8ace-8a549b4459fe)
+
 Ao criar um aplicativo que usa a IA do Azure para Informação de Documentos copiar duas informações para se conectar ao recurso:
 Ponto de extremidade. Essa é a URL em que o recurso pode ser contatado. Endpoint
 Chave de acesso. Essa é uma cadeia de caracteres exclusiva que o Azure usa para autenticar a chamada à IA do Azure para Informação de Documentos. Key 1 e Key 2 
@@ -23,6 +25,7 @@ ENDPOINT: https://desafioai102-bootcamp-doc-antifraude-002.cognitiveservices.azu
 Grupo de recurso: desafioai102-bootcamp-doc-antifraude-002
 - Escolher modelo pre built
 - Análise de dados
+![image](https://github.com/user-attachments/assets/012f12a4-baf9-4152-8e2a-f4da1a0655e0)
 
 # CÓDIGO
 This code sample shows Prebuilt Business Card operations with the Azure Form Recognizer client library. 
