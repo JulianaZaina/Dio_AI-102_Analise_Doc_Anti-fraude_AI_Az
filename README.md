@@ -1,32 +1,30 @@
 # Dio_AI-102_Analise_Doc_Anti-fraude_AI_Az
 Desafio de Projeto 2 DIO Análise de Documento Anti-fraude AI-102
+
 Criar um recurso da IA do Azure para Informação de Documentos e obter os dados da conexão, seguir as etapas:
-No portal do Azure, selecione Criar um recurso.
-Na caixa Pesquisar serviços e marketplace, digite Informação de Documentos e pressione Enter.
-Na página Informação de Documentos, selecione Criar.
-Na página Criar Informação de Documentos, em Detalhes do Projeto, selecione sua Assinatura e crie um novo Grupo de recursos
-Em Detalhes da instância, selecione a Região 
-Na caixa de texto Nome, digite um nome exclusivo para o recurso.
-Selecione um Tipo de preço e selecione Examinar + criar. 
-Se os testes de validação forem aprovados, selecione Criar. O Azure implanta o novo recurso de IA do Azure para Informação de Documentos.
+- No portal do Azure, selecione Criar um recurso.
+- Na caixa Pesquisar serviços e marketplace, digite Informação de Documentos e pressione Enter.
+- Na página Informação de Documentos, selecione Criar.
+- Na página Criar Informação de Documentos, em Detalhes do Projeto, selecione sua Assinatura e crie um novo Grupo de recursos
+- Em Detalhes da instância, selecione a Região 
+- Na caixa de texto Nome, digite um nome exclusivo para o recurso.
+- Selecione um Tipo de preço e selecione Examinar + criar. 
+- Se os testes de validação forem aprovados, selecione Criar. O Azure implanta o novo recurso de IA do Azure para Informação de Documentos.
+
 EXECUÇÃO:
  
-
 Ao criar um aplicativo que usa a IA do Azure para Informação de Documentos copiar duas informações para se conectar ao recurso:
 Ponto de extremidade. Essa é a URL em que o recurso pode ser contatado. Endpoint
 Chave de acesso. Essa é uma cadeia de caracteres exclusiva que o Azure usa para autenticar a chamada à IA do Azure para Informação de Documentos. Key 1 e Key 2 
 KEY 1 A62jN9a3wPYKtJ1tnxw8NAQS0yg3T5zCYKoyBvL4aKAArGxmGEBbJQQJ99AKACYeBjFXJ3w3AAALACOG3BZM
-KEY 2
-BxF5wlRMeNNK7XVc33H4iz4FYZMWFnIMHQpuGxF6HegN92XoTXKYJQQJ99AKACYeBjFXJ3w3AAALACOGJNm5
-ENDPOINT
-https://desafioai102-bootcamp-doc-antifraude-002.cognitiveservices.azure.com/
+KEY 2 BxF5wlRMeNNK7XVc33H4iz4FYZMWFnIMHQpuGxF6HegN92XoTXKYJQQJ99AKACYeBjFXJ3w3AAALACOGJNm5
+ENDPOINT: https://desafioai102-bootcamp-doc-antifraude-002.cognitiveservices.azure.com/
+
 Grupo de recurso: desafioai102-bootcamp-doc-antifraude-002
- 
-Escolher modelo pre built
-Análise de dados
- 
-CÓDIGO
-"""
+- Escolher modelo pre built
+- Análise de dados
+
+# CÓDIGO
 This code sample shows Prebuilt Business Card operations with the Azure Form Recognizer client library. 
 The async versions of the samples require Python 3.6 or later.
 from azure.core.credentials import AzureKeyCredential
